@@ -113,7 +113,8 @@ body {
 
 .icone-modal{
     background-color: red;
-    position: absolute;
+    position: absolute;  
+    
 }
  
 .btn-modal{ 
@@ -222,3 +223,75 @@ span h3 {
 .btnOK {
     background-color: blue !important;
 }
+
+.btns-x{ 
+    font-size: medium;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 98%; 
+    display: flex;
+    justify-content: center;
+}
+
+.btn-x{
+    background-color: brown;
+    border-radius: 4px;  
+    padding:5px; 
+    
+}
+
+.btn-x p{
+    color: white;
+}
+
+
+@media (max-width: 500px) {
+    .header h1{ 
+      text-align: center; 
+      top: 190px; 
+    } 
+
+    .section-container{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+
+    .modal-container{ 
+        width: 70%;   
+        left: 60px;
+    }
+
+    .modal{
+        height:400px;
+        width: 100%;
+        background-color: blueviolet; 
+        
+    }
+
+    .modal img{
+        height: 50%;
+        width: 70%;
+        border-top: none;
+    }
+
+}
+    @media screen and (max-width:900px) {
+        .header h1{ 
+            text-align: center; 
+            top: 190px; 
+          } 
+      
+          .section-container{
+              display: flex;
+              flex-wrap: wrap;
+              padding-bottom: 60px;  
+              width: 80%;
+          }
+
+          .modal-container{ 
+            justify-content: center;
+            padding-top: 50%;
+          }
+    }
